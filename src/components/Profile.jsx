@@ -2,7 +2,7 @@ import React from 'react'
 import mypic from '../assets/arjunpfpmodified.webp'
 import gitpic from '../assets/github-sn.webp'
 import lipic from '../assets/linkedin-sn.webp'
-import resume from '../Resume/Resume.pdf'
+import resume from '../Resume/resume.pdf'
 
 function Profile() {
   return (

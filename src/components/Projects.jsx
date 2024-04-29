@@ -3,6 +3,7 @@ import pic1 from '../assets/luminar-logo.webp';
 import pic3 from '../assets/netflix.jpg';
 import arrow from '../assets/arrow-sn.webp'
 import pic2 from '../assets/headphones.jpg'
+import estate from '../assets/estate.jpg'
 function Projects() {
   return (
     <div>
@@ -35,21 +36,21 @@ function Projects() {
               <button className="btn btn-color-2 project-btn" onClick={() => window.location.href = 'https://github.com/arjunvm1/headphones-site'}>
                 Github
               </button>
-              <button className="btn btn-color-2 project-btn" onClick={() => window.location.href = 'https://tasklive.netlify.app/'}>
+              <button className="btn btn-color-2 project-btn" onClick={() => window.location.href = 'https://headphonesdemosite.netlify.app/'}>
                 Live Demo
               </button>
             </div>
           </div>
           <div className="details-container color-container">
             <div className="article-container">
-              <img src={pic3} alt="Project 3" className="project-img" />
+              <img src={estate} alt="Project 3" className="project-img" />
             </div>
-            <h2 className="experience-sub-title project-title">Netflix clone</h2>
+            <h2 className="experience-sub-title project-title">SetEstate (A real estate website)</h2>
             <div className="btn-container">
-              <button className="btn btn-color-2 project-btn" onClick={() => window.location.href = 'https://github.com/arjunvm1/React-netflix-clone'}>
+              <button className="btn btn-color-2 project-btn" onClick={() => window.location.href = 'https://github.com/arjunvm1/mern-estate'}>
                 Github
               </button>
-              <button className="btn btn-color-2 project-btn" onClick={() => window.location.href = 'https://react-netflix-clonedemo.netlify.app/'}>
+              <button className="btn btn-color-2 project-btn" onClick={() => window.location.href = 'https://mern-estate-bpqf.onrender.com/'}>
                 Live Demo
               </button>
             </div>
